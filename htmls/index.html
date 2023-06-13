@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sazid protfolio</title>
+    <!-- ````  FOR ALL CONTENT``` -->
+    <link rel="shortcut icon" href="/favi-image/SAZid .png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ````` FOR THE HEADER ````` -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+     
+
+      body {
+        background-color: #080a28;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        /* position:absolute; */
+
+      }
+
+      nav {
+        background-color: #0b0f39b5;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        
+      }
+      nav ul {
+        display: flex;
+       
+        justify-content: space-around;
+        align-items: center;
+      }
+      nav ul li{
+         list-style-type: none;
+         margin: 10px 22px;
+         font: 1rem;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+     color: rgb(147, 147, 238);
+     /* font-size: 1.5rem; */
+      }
+      .left-header{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        
+      }
+      
+      .left-header h1 a{
+        text-decoration: none;
+        color: white;
+         font-weight:300;
+         font-family: 'Montserrat', sans-serif;
+      }
+      .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 25px 0;
+
+      }
+      .firstSection > div{
+        width: 30%;
+        
+
+      }
+      .leftSection{
+        /* background-color: red; */
+      /* width: 40%; */
+      font-size:3rem;
+      margin: 30px 0;
+      line-height: 67px;
+    
+
+     }
+     .buttons{
+       
+       margin: 15px 55px;
+     }
+     .buttons .download-button {
+      font-size: 31px;
+    background: #262e95;
+    color: white;
+    padding: 10px;
+}
+     
+
+
+
+
+      
+      .rightSection{
+        width: 30%;
+        margin: 10px 0px;
+       
+      }
+      .rightSection img{
+        width: 80%;
+        margin: 57px 103px;
+      }
+      
+      .purple{
+        color: rgb(218, 82, 218);
+      }
+      .text-gray{
+        color: rgb(176, 173, 173);
+
+      }
+      #element{
+        color: rgb(218, 82, 218);
+      }
+      main hr{
+        /* border: 0 */
+        color: rgb(122, 122, 191);
+        height:0px;
+        margin: 70px 120px;
+        background-color: rgb(122, 122, 191);
+        border-color:rgb(122, 122, 191);
+      }
+      .secondSection{
+        max-width: 80vw;
+        margin: auto;
+      }
+      .secondSection h1{
+        font-size: 1.9rem;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left-header">
+          <h1><a href="index.html">Sazid's Protfolio</a></h1>
+
+        </div>
+        <div class="right-header">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact-Me.html">Contact Me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Services.html">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+<div class="firstSection">
+  <div class="leftSection">
+    Hi, My name is <span class="purple"> Sazid</span>
+    <div>a Passionate </div>
+    
+    <span id="element"></span>
+    <div class="buttons">
+      <button class="download-button">Download Resume</button>
+    <button class="download-button">Visit Github</button>
+    </div>
+  </div>
+
+
+ 
+  
+  <div class="rightSection">
+  <img src="/Images-Web page/dev-image.png" alt="web dev">
+  </div>
+</div>
+
+
+
+<hr>
+
+        <!-- `````second Section1````` -->
+        <section class="secondSection">
+          <span class="text-gray">What I have done so far?</span>
+          
+          <h1>Work Experience</h1>
+        </section>
+
+      </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Ui or Ux Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
